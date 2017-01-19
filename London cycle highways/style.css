@@ -1,0 +1,81 @@
+.hidden{
+    display: none;
+}
+
+html, body { 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Indie Flower', cursive;
+}
+
+#content{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#selectionField{
+    display: inline-block;
+    width: 30%;
+    border-right: solid 4px #00bcd4;
+}
+
+#informationField{
+    display: none;
+    width: 69%;
+    border-left: solid 4px #00bcd4;
+    text-align: left;
+    float: right;
+}
+
+.selectionTemplate{
+    width: 100%;
+    margin: 0px auto;
+    list-style-type: none;
+    text-align: right;
+    padding: 10px;
+    color: #3f51b5;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.selectionTemplate:not(:last-child){
+    border-bottom: solid 2px #00bcd4;
+}
+
+.selectionTemplate:hover{
+    background-color: #3f51b5;
+    color: white;
+}
+
+#informationBar{
+    transition: 0.3s ease;
+    padding: 15px;
+    border-top: solid 2px #00bcd4;
+    border-left: solid 2px #00bcd4;
+}
+
+#informationBar li{
+    list-style-type: none;
+    color: #3f51b5;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px auto;
+    text-align: left;
+}
+
+#map { 
+    height: 60%; 
+    width: 90%;
+    border: solid 4px #00bcd4;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
